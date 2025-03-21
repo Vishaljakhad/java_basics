@@ -13,3 +13,6 @@ public class Main {
         }
     }
 }
+
+
+//main function serves as the critical component that serves as the entry point for any standalone java application
