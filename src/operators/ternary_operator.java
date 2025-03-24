@@ -16,13 +16,22 @@ public static void main(String[] args) {
     System.out.println(canIvote);
 
 
-   // question : Find the largest and smallest number from n1,n3,n3
+   // question 2 : Find the largest and smallest number from n1,n3,n3
      int n1 = 2, n2= 9, n3 =-11;
 
      int largest =   (n1 >= n2) ? ((n1>=n3)  ? n1 : n3 ) : ((n2 >= n3) ? n2: n3);
     int smallest =   (n1 <= n2) ? ((n1<=n3)  ? n1 : n3 ) : ((n2 <= n3) ? n2: n3);
     System.out.println(" largest number:" + largest );
     System.out.println(" smallest number:" + smallest );
+
+    //take inputs from configuration : q3
+    String age_string = args[0];
+    int age2 = Integer.parseInt(age_string);
+    System.out.println(age2);
+
+
+    String Canigogoa = age2 >= 24 ? "yes" : "no";
+    System.out.println(Canigogoa);
 
 }
 
