@@ -13,6 +13,8 @@ public class relatedtoternanryoperator {
 public static void main(String[] args) {
 
 
+    // question is solved in hackerrank interview questions
+
 }
 
 
