@@ -30,9 +30,14 @@ public class math_function {
             System.exit(0);
         }
         //BigInteger a = scanner.nextBigInteger();
-        a = scanner.nextInt();
         System.out.println("enter the num2");
-        b = scanner.nextInt();
+        if(scanner.hasNextInt()){
+            b = scanner.nextInt();
+        }
+        else  {
+            System.out.println("enter the int only");
+            System.exit(0);
+        }
 
         int result_sum= sum(a,b);
         int result_sub = sub(a,b);
