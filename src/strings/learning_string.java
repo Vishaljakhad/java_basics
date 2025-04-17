@@ -9,6 +9,8 @@ public class  learning_string {
 
         String s2 = new String("vishal");// this is a different way of creating string here memory allocation in object area.
         System.out.println(s2);
+
+        //refer notes for better understanding
     }
 
 }
