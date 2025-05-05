@@ -1,4 +1,4 @@
-package forloop;
+   package forloop;
 
 //While loop is called entry controlled loop
 // it verifies the condition before executing the block
